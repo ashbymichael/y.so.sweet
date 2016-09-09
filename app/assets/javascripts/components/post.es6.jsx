@@ -3,13 +3,14 @@ var CommentBox = React.createClass({
     return (
       <div className="commentBox">
         <h1>Hello, world! I am a CommentBox.</h1>
+        <img src="/assets/ysosweet1.jpg"/>
       </div>
     );
   }
 });
 $(function() {
   ReactDOM.render(
-    <CommentBox />,
+    <CommentBox/>,
     document.getElementById('content')
   );
 })
