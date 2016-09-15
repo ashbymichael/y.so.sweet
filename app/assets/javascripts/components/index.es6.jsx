@@ -3,6 +3,9 @@ class Index extends React.Component {
     return (
       <div>
         <Home/>
+        <About/>
+        <Product/>
+        <Contact/>
       </div>
     )
   }
@@ -11,7 +14,7 @@ class Index extends React.Component {
 class Home extends React.Component {
   render() {
     return (
-      <div><img src="../assets/ysosweet1.jpg" /></div>
+      <div><h1>home</h1></div>
     )
   }
 }
@@ -23,6 +26,7 @@ class About extends React.Component {
     )
   }
 }
+
 
 class Product extends React.Component {
   render() {
