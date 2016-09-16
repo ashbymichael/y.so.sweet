@@ -14,7 +14,9 @@ class Index extends React.Component {
 class Home extends React.Component {
   render() {
     return (
-      <div><h1>home</h1></div>
+      <section id="home-view">
+        <h1>home</h1>
+      </section>
     )
   }
 }
@@ -22,7 +24,9 @@ class Home extends React.Component {
 class About extends React.Component {
   render() {
     return (
-      <div><h1>about</h1></div>
+      <section id="about-view">
+        <h1>about</h1>
+      </section>
     )
   }
 }
@@ -31,7 +35,9 @@ class About extends React.Component {
 class Product extends React.Component {
   render() {
     return (
-      <div><h1>product</h1></div>
+      <section id="product-view">
+        <h1>product</h1>
+      </section>
     )
   }
 }
@@ -39,7 +45,9 @@ class Product extends React.Component {
 class Contact extends React.Component {
   render() {
     return (
-      <div><h1>contact</h1></div>
+      <section id="contact-view">
+        <h1>contact</h1>
+      </section>
     )
   }
 }
